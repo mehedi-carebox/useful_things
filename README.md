@@ -10,3 +10,5 @@
 **add quote begin and end of allline(vim) :** `:%s/^\(.*\)$/"\1"/`
 
 **create file with directory(bash):** `install -D /dev/null data/logs/app.log`
+
+**Auto Locking Screen(CRON):** `*/60 * * * * loginctl lock-session 2`
